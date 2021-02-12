@@ -25,14 +25,14 @@ class HomePage extends StatelessWidget {
       builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
         print(snapshot.data);
         return ListView(
-          children: _itemList(snapshot.data),
+          children: _itemList(snapshot.data, context),
           // children: [],
         );
       },
     );
   }
 
-  List<Widget> _itemList(List<dynamic> data) {
+  List<Widget> _itemList(List<dynamic> data, BuildContext context) {
     List<Widget> options = [];
 
     data.forEach((item) {
@@ -43,7 +43,9 @@ class HomePage extends StatelessWidget {
           Icons.keyboard_arrow_right_rounded,
           color: Colors.blue,
         ),
-        onTap: () {},
+        onTap: () {
+          Navigator.pushNamed(context, item['ruta']);
+        },
       );
 
       options..add(newItem)..add(Divider());

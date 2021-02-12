@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Avatar extends StatelessWidget {
-  const Avatar({Key key}) : super(key: key);
-
+class AvatarPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
