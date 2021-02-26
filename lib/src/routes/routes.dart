@@ -1,3 +1,4 @@
+import 'package:components_list/src/pages/animated_container.dart';
 import 'package:components_list/src/pages/card_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:components_list/src/pages/alert_page.dart';
@@ -10,6 +11,7 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     "alert": (BuildContext context) => AlertPage(),
     "avatar": (BuildContext context) => AvatarPage(),
     "card": (BuildContext context) => CardPage(),
+    "animatedContainer": (BuildContext context) => AnimatedContainerPage(),
   };
   return appRoutes;
 }
