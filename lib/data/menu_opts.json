@@ -30,6 +30,11 @@
             "ruta": "datePicker",
             "icon": "date",
             "texto": "Date Picker"
+        },
+        {
+            "ruta": "dropdown",
+            "icon": "list",
+            "texto": "Dropdown"
         }
     ]
 }
