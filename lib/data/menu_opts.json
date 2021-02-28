@@ -35,6 +35,11 @@
             "ruta": "dropdown",
             "icon": "list",
             "texto": "Dropdown"
+        },
+        {
+            "ruta": "slider",
+            "icon": "tune",
+            "texto": "Slider"
         }
     ]
 }

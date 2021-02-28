@@ -7,7 +7,9 @@ final _icons = <String, IconData>{
   "donut_large": Icons.donut_large,
   "input": Icons.input,
   "date": Icons.date_range,
-  "list": Icons.list_alt,
+  "list": Icons.arrow_drop_down,
+  "tune": Icons.tune,
+  "check_box": Icons.check_box,
 };
 
 Icon getIcon(String iconName) {
