@@ -9,7 +9,7 @@ final _icons = <String, IconData>{
   "date": Icons.date_range,
   "list": Icons.arrow_drop_down,
   "tune": Icons.tune,
-  "check_box": Icons.check_box,
+  "checkbox": Icons.check_box,
 };
 
 Icon getIcon(String iconName) {
